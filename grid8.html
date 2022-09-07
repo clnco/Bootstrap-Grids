@@ -62,10 +62,29 @@
 </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-           <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
-       </div>
+       <div class="container-fluid h-100 minHeight">
+            <div class="row h-100 gy-2 row-cols-1 row-cols-md-2">
+                <div class="col col-md-12">
+                    <div class="bg-secondary text-white h-100">
+                    Col 1
+                    </div>  
+                </div>
+                <div class="col col-md-4 order-last">
+                    <div class="bg-dark text-white h-100">
+                    Col 2
+                    </div>  
+                </div>
+                <div class="col col-md-4">
+                    <div class="bg-secondary text-white h-100">
+                    Col 3
+                    </div>  
+                </div>
+                <div class="col col-md-4">
+                    <div class="bg-secondary text-white h-100">
+                    Col 3
+                    </div>  
+                </div>
+        </div>    
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
